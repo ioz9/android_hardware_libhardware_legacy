@@ -64,7 +64,7 @@ static char iface[PROPERTY_VALUE_MAX];
 #define WIFI_TEST_INTERFACE		"sta"
 
 #define WIFI_DRIVER_LOADER_DELAY	1000000
-
+//not support u8800,only c8650
 //static const char IFACE_DIR[]           = "/data/system/wpa_supplicant";
 static const char IFACE_DIR[]           = "/data/misc/wpa_supplicant";
 static const char DRIVER_MODULE_NAME[]  = WIFI_DRIVER_MODULE_NAME;
